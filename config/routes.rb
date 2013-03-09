@@ -5,7 +5,6 @@ SampleApp::Application.routes.draw do
   match '/static_pages/home' => 'static_pages#home'
   
    
-  root to: 'static_pages#home'
-  
+    
 end
 
