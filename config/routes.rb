@@ -1,16 +1,15 @@
 SampleApp::Application.routes.draw do
   get "users/new"
+  root to: 'static_pages#home'
 
- match '/signup'=>'user#new'
+ match '/signup'=>'Users#new'
 
   match '/static_pages/help' => 'static_pages#help'
   match '/static_pages/about' => 'static_pages#about'
   match '/static_pages/contact'=> 'static_pages#contact'
   match '/static_pages/home' => 'static_pages#home'
   
- root to: 'static_pages#home'
-
-
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -68,5 +67,3 @@ SampleApp::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 end
-
-   
