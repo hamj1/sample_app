@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+<<<<<<< HEAD
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
@@ -104,3 +105,5 @@ footer {
 
 
 
+=======
+>>>>>>> filling-in-layout

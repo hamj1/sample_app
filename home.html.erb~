@@ -1,5 +1,6 @@
 <div class="center hero-unit">
 <<<<<<< HEAD
+<<<<<<< HEAD
        <h1>Welcome to the Sample App</h1>
        <h2>
        This is the home page for the
@@ -11,6 +12,8 @@
   <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
 <a href="#" class="btn btn-large btn-primary">Sign up now!</a>
 =======
+=======
+>>>>>>> filling-in-layout
  <h1>Welcome to the Sample App</h1>
  <h2>
  This is the home page for the
@@ -20,5 +23,8 @@
  <%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
 </div>
 <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+<<<<<<< HEAD
+>>>>>>> filling-in-layout
+=======
 >>>>>>> filling-in-layout
 
