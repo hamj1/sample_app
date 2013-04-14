@@ -133,5 +133,3 @@ describe "Authentication" do
 end
 
 
-
-
