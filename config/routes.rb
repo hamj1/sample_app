@@ -1,5 +1,8 @@
 SampleApp::Application.routes.draw do
 
+  post "users/1/edit"
+  get "users/new" 
+  
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
 
