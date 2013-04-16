@@ -44,7 +44,7 @@ describe "Micropost pages" do
       end
    end
 
-     # Exercise 10.5.4: Adding tests to make sure delete links appear for the correct user
+     # EX 10.5.4
      describe "delete links" do
 
          let(:user) { FactoryGirl.create(:user) }
