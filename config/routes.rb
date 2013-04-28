@@ -3,11 +3,17 @@ SampleApp::Application.routes.draw do
     post "users/1/edit"
     get "users/new"
 
+  resources :users do
+    member do
+      get :following, :followers
+    end
+  end
+
     resources :users
     resources :microposts
     resources :sessions, only: [:new, :create, :destroy]
     resources :microposts, only: [:create, :destroy, :show]
-
+    resources :relationships, only: [:create, :destroy]
 
   root :to => "static_pages#home"
   match '/home', :to => 'static_pages#home'
