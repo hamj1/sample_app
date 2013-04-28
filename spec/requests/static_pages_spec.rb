@@ -69,7 +69,7 @@ require 'spec_helper'
     end
 
 
- it "should have the right links on the layout" do
+it "should have the right links on the layout" do
    visit root_path
    
 click_link "About"
